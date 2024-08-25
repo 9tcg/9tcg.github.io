@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[682],{5465:function(t,e,a){a.r(e),a.d(e,{Head:function(){return c}});var n=a(7294),l=a(2416),r=a(2345),s=a(9357);const c=()=>n.createElement(s.Z,{title:"404: Not Found"});e.default=t=>{let{data:e,location:a}=t;const s=e.site.siteMetadata.title;return n.createElement(r.Z,{location:a,title:s},n.createElement(l.C,null,n.createElement("img",{src:"/星锑 .png",style:{width:"70%",height:"auto"}})))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-526d7f7e2519b426acac.js.map
