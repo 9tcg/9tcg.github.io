@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[1999 TCG 同人卡片游戏 资料站点.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Sep 2024 15:09:11 GMT</lastBuildDate><item><title><![CDATA[规则书 V0.0.1 - SNACSHORTS]]></title><description><![CDATA[1 游戏规则 总则： 当规则书和卡面描述冲突时，以卡面描述为准。 1.1 游戏准备 游戏位两个人PVP卡片游戏。游戏开始前每个人要准备一套卡组。和一个指示物（骰子或者其他双方约定的小物件即可）。卡组要求： 每个卡组要求不少于40张卡，不多于6…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/rule-001/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/rule-001/</guid><pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;1 游戏规则&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[1999 TCG 同人卡片游戏 资料站点.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Sep 2024 15:28:50 GMT</lastBuildDate><item><title><![CDATA[发布了测试版的演练场]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-002/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-002/</guid><pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;如你所见，我们开发了这个演练场的雏形。其目的是为了以后测试卡和规则。
+打印的速度太慢了，我也需要一个方法完成自己和自己战斗的这件事。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/news/%E6%BC%94%E7%BB%83%E5%9C%BA.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/playground&quot;&gt;如果你感兴趣可以点击这里&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当然还有很多问题。比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不能动态设置卡组&lt;/li&gt;
+&lt;li&gt;没有卡组和目的的检索&lt;/li&gt;
+&lt;li&gt;没有士气值（血条）&lt;/li&gt;
+&lt;li&gt;没有时代值&lt;/li&gt;
+&lt;li&gt;或许应该加个流程或者日志什么的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总之这是一个雏形。我希望越来越好。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;实现拖拽效果基于&lt;code class=&quot;language-text&quot;&gt;react-dnd&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[规则书 V0.0.1 - SNACSHORTS]]></title><description><![CDATA[1 游戏规则 总则： 当规则书和卡面描述冲突时，以卡面描述为准。 1.1 游戏准备 游戏位两个人PVP卡片游戏。游戏开始前每个人要准备一套卡组。和一个指示物（骰子或者其他双方约定的小物件即可）。卡组要求： 每个卡组要求不少于40张卡，不多于6…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/rule-001/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/rule-001/</guid><pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;1 游戏规则&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;总则： 当规则书和卡面描述冲突时，以卡面描述为准。&lt;/p&gt;
 &lt;/blockquote&gt;
