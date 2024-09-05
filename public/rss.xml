@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[1999 TCG 同人卡片游戏 资料站点.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 02 Sep 2024 10:51:22 GMT</lastBuildDate><item><title><![CDATA[彩色的白]]></title><description><![CDATA[详情 key Value 卡包 S001 名称 彩色的白 卡片类型 神秘术 关键词 苹果 属性 星 种族  理性 1 激情 1 ACK  效果 选择一个人物，直到回合结束前仅一次不会被战斗破坏 卡号 S001-T-003 关联卡  修改历史 修改时间 内容 原因]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/S001-T-003/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/S001-T-003/</guid><pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/cards/S001-T-003.png&quot; class=&quot;img-a&quot;/&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[1999 TCG 同人卡片游戏 资料站点.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 05 Sep 2024 14:45:01 GMT</lastBuildDate><item><title><![CDATA[第一次测试问题汇总]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-003/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-003/</guid><pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;看来设计确实是一个很困难的事情。&lt;/p&gt;
+&lt;p&gt;按照原来的规则，已经设计好了第一套预组卡组。但是在测试时确实遇到了很多问题。下面是记录和一些改进的方向。&lt;/p&gt;
+&lt;h1&gt;规则上&lt;/h1&gt;
+&lt;h2&gt;操作繁琐&lt;/h2&gt;
+&lt;p&gt;使用正面朝上的卡作为理性资源，而背面朝上的最为激情资源，使用两张资源作为费用本来是特色。但是却加大了操作的复杂度。更何况血量和时代轴这些东西。于是可以看到一次成功的攻击（比如第一回合对面空场是的攻击。）要进行下面这些操作。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自己抽一张到激情区&lt;/li&gt;
+&lt;li&gt;对方抽一张卡到理性区&lt;/li&gt;
+&lt;li&gt;对方放置逆位到安全屋&lt;/li&gt;
+&lt;li&gt;移动血条位置&lt;/li&gt;
+&lt;li&gt;移动时代轴位置&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这些还仅仅是没有任何特殊效果的时候，更别提像APPLe这样的激情增加时抽卡的效果的存在。每次攻击要5个操作打底。严重影响了游戏的体验。&lt;/p&gt;
+&lt;h2&gt;暴雨规则没有触发过&lt;/h2&gt;
+&lt;p&gt;由于攻击的负收益太高，导致很少有怪可以一直站场。时代轴很难被推进，于是在两次试玩中，我几乎都没有考虑过暴雨。注意：一种一局可是玩了5和大回合。我甚至根本不用考虑暴雨发生的情况。这证明了两点，1. 游戏内人物卡的攻击数值不太容易触发这个规则，2. 这个规则本身就是失败的。因为要用到净伤害量，而且是累积的，即限制了玩家召唤攻击高的打怪的欲望，也增加了不必要的计算量。（有事甚至忘记移动时代轴这回事）&lt;/p&gt;
+&lt;h2&gt;理性和激情的区别不突出&lt;/h2&gt;
+&lt;p&gt;在使用费用体系是，几乎很少因为理性和激情的设计被卡住召唤。这也说明，这个设计没有发挥出应该有的作用。可能是获取高级资源理性的方式太简单和廉价。玩家基本不思考这两个资源的管理是什么样的。出现了设计等于没有设计的情况。我甚至没有使用过从理性堆拿牌到手牌这件事。&lt;/p&gt;
+&lt;h1&gt;卡&lt;/h1&gt;
+&lt;h2&gt;星锑隐身莫名其妙&lt;/h2&gt;
+&lt;p&gt;我基本上召唤星锑就是为了，拉0Cost的APPLE,然后再高攻击，发效果赚一“激情”一手卡。第二个效果从来没有过。
+而且隐身的效果是，对方一次攻击无效，自己攻击还解除，基本上没有什么特别大的用处。因为现在的环境中，不存在很多一回合增加ACK的卡。就算有攻击也很难超过星锑。&lt;/p&gt;
+&lt;h2&gt;TTT 能力没有限制&lt;/h2&gt;
+&lt;p&gt;TTT可以保护不消灭，但是次数没有限制。导致使用多次。但是即使如此在大多数情况下，保护后，没有什么后续手段。&lt;/p&gt;
+&lt;h2&gt;大部分神秘术收益过低，基本不会使用。&lt;/h2&gt;
+&lt;p&gt;要知道这个游戏规则里手牌可以当成理性。但是神秘术的使用要花费Cost。但是它本身是一张卡，其实神秘术无形间的费用就是+1理性了。导致几乎所有的神秘术没有太大作用。&lt;/p&gt;
+&lt;h2&gt;模因收益太低 几乎毫无用处。&lt;/h2&gt;
+&lt;p&gt;目前为止对于模因没有一个好的模型。费用高，后续两个状态的效果。基本上不能都用上。在规则上，可以被攻击时0费放置，但是在平时只能是放到理性中而已。&lt;/p&gt;
+&lt;h2&gt;卡片间的关联性太低&lt;/h2&gt;
+&lt;p&gt;基本上第一个卡组的没有什么Combo,都是单卡，加强攻击或者削弱攻击的怼脸，几乎毫无作用。也失去很多乐趣。双方的交互也比较差。&lt;/p&gt;
+&lt;h2&gt;部分效果描述模糊&lt;/h2&gt;
+&lt;p&gt;很多效果没有说明什么时候可以发动。感觉在文本上要确定。&lt;/p&gt;
+&lt;h1&gt;后续改进方向？&lt;/h1&gt;
+&lt;p&gt;首先 肯定要在规则上做减法。在保证有趣的前提下，尽量减少操作的繁琐性。
+比如取消单独的时代轴，使用两个人血条相交这种设计。（不一定好，或者平衡）&lt;/p&gt;
+&lt;p&gt;理性和激情需要区别开。或者降低获得理性的效率。或者让激情不再是一种需要抽卡的资源。或者干脆减少改为一种Cost。（这样可能改动比较大）&lt;/p&gt;
+&lt;h2&gt;Example1&lt;/h2&gt;
+&lt;p&gt;比如召唤都要支付理性，而激情是人物卡上的属性。某些大怪要牺牲下级的怪中有激情要求？（这样攻击就只有负数收益。或者设置攻击对方不涨理性，自己也不涨激情）
+但是这样，费用就都成了手牌。不过还有改进的空间&lt;/p&gt;</content:encoded></item><item><title><![CDATA[彩色的白]]></title><description><![CDATA[详情 key Value 卡包 S001 名称 彩色的白 卡片类型 神秘术 关键词 苹果 属性 星 种族  理性 1 激情 1 ACK  效果 选择一个人物，直到回合结束前仅一次不会被战斗破坏 卡号 S001-T-003 关联卡  修改历史 修改时间 内容 原因]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/S001-T-003/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/S001-T-003/</guid><pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/cards/S001-T-003.png&quot; class=&quot;img-a&quot;/&gt;
 &lt;h1&gt;详情&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
